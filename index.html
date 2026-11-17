@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio Nathaniel Darius, Informatics student at Telkom University with an interest in cybersecurity.">
+  <title>Nathaniel Darius | Cybersecurity & Informatics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grid-overlay"></div>
+  <header class="site-header">
+    <a class="brand" href="#home"><span class="brand-mark">N<span>.</span></span><span>NATHANIEL<span class="muted">.DEV</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+    <nav id="navMenu">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact" class="nav-contact">Contact <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <div class="status"><span class="pulse"></span> AVAILABLE TO LEARN & COLLABORATE</div>
+        <p class="eyebrow">HELLO, WORLD! I'M</p>
+        <h1>Nathaniel<br><span class="gradient-text">Darius.</span></h1>
+        <div class="role-line"><span class="prompt">></span> Informatics Student <span class="cursor">_</span></div>
+        <p class="hero-description">Exploring the world of technology, programming, and cybersecurity. Building my skills one project at a time.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore Projects <span>↓</span></a>
+          <a class="button button-ghost" href="https://github.com/nathanieldarius" target="_blank" rel="noopener noreferrer">GitHub Profile ↗</a>
+        </div>
+        <div class="hero-meta"><span>📍 Telkom University</span><span>🎓 Semester 3</span></div>
+      </div>
+      <div class="terminal-wrap" aria-label="Decorative terminal">
+        <div class="terminal">
+          <div class="terminal-top"><div class="window-dots"><i></i><i></i><i></i></div><span>nathaniel@portfolio: ~</span><span class="terminal-lock">▣</span></div>
+          <div class="terminal-body">
+            <p><span class="term-green">nathaniel@dev</span>:<span class="term-blue">~</span>$ whoami</p>
+            <p class="term-output">Informatics Student</p>
+            <p><span class="term-green">nathaniel@dev</span>:<span class="term-blue">~</span>$ interests</p>
+            <p class="term-output">Cybersecurity<br>Software Development<br>Problem Solving</p>
+            <p><span class="term-green">nathaniel@dev</span>:<span class="term-blue">~</span>$ learning --status</p>
+            <p class="term-output"><span class="term-green">[in progress]</span> Always improving...</p>
+            <p><span class="term-green">nathaniel@dev</span>:<span class="term-blue">~</span>$ <span class="cursor">█</span></p>
+          </div>
+        </div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="floating-chip chip-top">{"secure": true}</div>
+        <div class="floating-chip chip-bottom">01001010 01000001</div>
+      </div>
+      <a class="scroll-hint" href="#about">SCROLL TO EXPLORE <span>↓</span></a>
+    </section>
+
+    <section class="section content-section" id="about">
+      <div class="section-heading"><span class="section-index">01 / ABOUT</span><h2>A little about <span class="gradient-text">me.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-card glass-card">
+          <div class="card-icon">⌘</div>
+          <h3>Curious by nature.</h3>
+          <p>Hi! I'm Nathaniel, an Informatics student at Telkom University. I'm currently learning programming fundamentals and exploring how technology works behind the scenes.</p>
+          <p>I'm especially interested in cybersecurity and the challenge of understanding, protecting, and improving digital systems.</p>
+        </div>
+        <div class="about-facts">
+          <div class="fact"><span class="fact-label">EDUCATION</span><strong>Telkom University</strong><small>Bachelor's in Informatics</small></div>
+          <div class="fact"><span class="fact-label">CURRENT LEVEL</span><strong>Semester 3</strong><small>Undergraduate Student</small></div>
+          <div class="fact"><span class="fact-label">MAIN INTEREST</span><strong>Cybersecurity</strong><small>Learning & exploring</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section content-section" id="skills">
+      <div class="section-heading"><span class="section-index">02 / SKILLS</span><h2>Tools in my <span class="gradient-text">toolbox.</span></h2></div>
+      <p class="section-intro">Technologies and tools I've used while learning and building projects.</p>
+      <div class="skills-grid">
+        <article class="skill-card"><span class="skill-symbol cpp">C++</span><div><h3>C++</h3><p>Programming fundamentals</p></div><span class="skill-arrow">↗</span></article>
+        <article class="skill-card"><span class="skill-symbol go">Go</span><div><h3>Go</h3><p>Programming & problem solving</p></div><span class="skill-arrow">↗</span></article>
+        <article class="skill-card"><span class="skill-symbol py">Py</span><div><h3>Python</h3><p>Programming fundamentals</p></div><span class="skill-arrow">↗</span></article>
+        <article class="skill-card"><span class="skill-symbol git">⌘</span><div><h3>Git & GitHub</h3><p>Version control & collaboration</p></div><span class="skill-arrow">↗</span></article>
+      </div>
+      <div class="learning-note"><span>✳</span><p><strong>Currently exploring:</strong> cybersecurity fundamentals, networking, and secure software development.</p></div>
+    </section>
+
+    <section class="section content-section" id="projects">
+      <div class="section-heading"><span class="section-index">03 / SELECTED WORK</span><h2>Projects I've <span class="gradient-text">worked on.</span></h2></div>
+      <p class="section-intro">A couple of projects from my university learning journey.</p>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-visual visual-scopus"><span class="visual-label">01 / GROUP PROJECT</span><div class="visual-window"><div class="visual-window-bar"><i></i><i></i><i></i></div><div class="visual-lines"><b></b><i></i><i></i><i></i></div><div class="visual-nodes"><span>AUTHOR</span><span>PUBLICATION</span><span>CONTRIBUTION</span></div></div><span class="visual-code">SCOPAS.ID</span></div>
+          <div class="project-content"><div class="project-type">WEB / DATA MANAGEMENT CONCEPT</div><h3>Scopas.id — Scientific Publication Management</h3><p>A group project focused on managing scientific publications and their authors, including author order and individual contributions within each publication.</p><div class="tag-list"><span>Group Project</span><span>Data Management</span></div><a class="project-link" href="https://github.com/nathanieldarius/Tugas-Besar-Kelompok_A" target="_blank" rel="noopener noreferrer">View Repository <span>↗</span></a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-electric"><span class="visual-label">02 / ALGORITHM PROJECT</span><div class="electric-meter"><span class="meter-label">ELECTRICITY LOG</span><strong>kWh</strong><div class="meter-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><small>SORTING DATA</small></div><span class="visual-code">GO / SORT</span></div>
+          <div class="project-content"><div class="project-type">GO / ALGORITHMS & PROGRAMMING</div><h3>Electricity Log Sorting</h3><p>A programming project that implements sorting of electricity log data using the Go programming language for an Algorithms and Programming course.</p><div class="tag-list"><span>Go</span><span>Sorting</span><span>Algorithms</span></div><a class="project-link" href="https://github.com/nathanieldarius/Tubes-Alpro-Nathan-Rifky-Log-Listrik" target="_blank" rel="noopener noreferrer">View Repository <span>↗</span></a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-panel">
+        <span class="section-index">04 / CONTACT</span>
+        <h2>Let's connect<span class="gradient-text">.</span></h2>
+        <p>I'm always open to learning, sharing ideas, and connecting with people in technology.</p>
+        <a class="button button-primary" href="https://github.com/nathanieldarius" target="_blank" rel="noopener noreferrer">Find me on GitHub ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#home"><span class="brand-mark">N<span>.</span></span><span>NATHANIEL<span class="muted">.DEV</span></span></a><p>Designed & built by Nathaniel Darius · <span id="year"></span></p><a href="#home" class="back-top">BACK TO TOP ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
